@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5d0109/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5d0109/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 漁莊邂逅錄
+  date: '2015-08-29 02:05:11.862972'
+  source:
+    repository: kanripo
+    path: KR5d0109
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5d0109_000-ZTDZ.yaml, hash: 'sha256:7e4efaf7d55ac00bf03f739021856e320f4811e47d7dff4748f066ddc1df6a89'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5d0109_000-ZTDZ.markers.yaml, hash: 'sha256:544d22ed452ab7a53d389c37f9cc0054f555d4ae56e1bbfa1999b498ff5dee2a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5d0109_SJB_000-240183c
+    span:
+    - body
+    - 0
+    - 3311
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:e81307646d60c7a6a36057f7a7c127b4093eaa231075614af1486a0536a3e346
